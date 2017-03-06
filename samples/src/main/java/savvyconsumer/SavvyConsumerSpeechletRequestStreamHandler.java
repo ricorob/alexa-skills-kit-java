@@ -27,6 +27,9 @@ public final class SavvyConsumerSpeechletRequestStreamHandler extends SpeechletR
          * Alexa Skill and put the relevant Application Ids in this Set.
          */
         supportedApplicationIds = new HashSet<String>();
+        //amzn1.ask.skill.f6f732ff-e174-4178-9e51-c2a94fa972f0
+        supportedApplicationIds.add("amzn1.ask.skill.f6f732ff-e174-4178-9e51-c2a94fa972f0");
+        supportedApplicationIds.add("amzn1.echo-sdk-ams.app.amzn1.ask.skill.f6f732ff-e174-4178-9e51-c2a94fa972f0");
         // supportedApplicationIds.add("amzn1.echo-sdk-ams.app.[unique-value-here]");
     }
 

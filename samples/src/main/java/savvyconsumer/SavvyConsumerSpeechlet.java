@@ -93,17 +93,18 @@ public class SavvyConsumerSpeechlet implements Speechlet {
     /**
      * Your AWS Access Key ID, as taken from the AWS Your Account page.
      */
-    private static final String AWS_ACCESS_KEY_ID = "Your AWS Access Key";
+    private static final String AWS_ACCESS_KEY_ID = "AKIAJ3GWS3DHDPSUNCQA";
 
     /**
      * Your AWS Secret Key corresponding to the above ID, as taken from the AWS Your Account page.
      */
-    private static final String AWS_SECRET_KEY = "Your AWS Secret Key";
+    private static final String AWS_SECRET_KEY = "Qs8d6i+1/fFcPw3m0iwrEidMMs8pjNMHXdaWMEEZq";
 
     /**
      * The Associates Tag.
      */
     private static final String AWS_ASSOCIATES_TAG = "associates_tag";
+    //private static final String AWS_ASSOCIATES_TAG = "ElenaRico";
 
     /**
      * The key to find the current index from the session attributes.

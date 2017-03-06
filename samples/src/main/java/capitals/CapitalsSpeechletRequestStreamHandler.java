@@ -7,7 +7,7 @@
 
     or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
  */
-package wiseguy;
+package capitals;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -22,7 +22,7 @@ import com.amazon.speech.speechlet.lambda.SpeechletRequestStreamHandler;
  * project using the {@code lambda-compile} Ant task and upload the resulting zip file to power your
  * function.
  */
-public class WiseGuySpeechletRequestStreamHandler extends SpeechletRequestStreamHandler {
+public class CapitalsSpeechletRequestStreamHandler extends SpeechletRequestStreamHandler {
 
     private static final Set<String> supportedApplicationIds;
 
@@ -32,15 +32,15 @@ public class WiseGuySpeechletRequestStreamHandler extends SpeechletRequestStream
          * Alexa Skill and put the relevant Application Ids in this Set.
          */
         supportedApplicationIds = new HashSet<String>();
-        supportedApplicationIds.add("amzn1.ask.skill.4e608853-110b-446d-a83c-31e5dd35d88e");
-        // supportedApplicationIds.add("amzn1.echo-sdk-ams.app.[unique-value-here]");
+        supportedApplicationIds.add("amzn1.ask.skill.095dbf43-a499-4fc3-8c68-b961e4b0b57f");
+        //supportedApplicationIds.add("amzn1.ask.skill.4e608853-110b-446d-a83c-31e5dd35d88e");
     }
 
-    public WiseGuySpeechletRequestStreamHandler() {
-        super(new WiseGuySpeechlet(), supportedApplicationIds);
+    public CapitalsSpeechletRequestStreamHandler() {
+        super(new CapitalsSpeechlet(), supportedApplicationIds);
     }
 
-    public WiseGuySpeechletRequestStreamHandler(Speechlet speechlet,
+    public CapitalsSpeechletRequestStreamHandler(Speechlet speechlet,
             Set<String> supportedApplicationIds) {
         super(speechlet, supportedApplicationIds);
     }

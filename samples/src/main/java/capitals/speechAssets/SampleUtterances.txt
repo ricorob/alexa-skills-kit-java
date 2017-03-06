@@ -1,0 +1,22 @@
+TellMeTheCapitalIntent find the capital of
+TellMeTheCapitalIntent find a capital
+TellMeTheCapitalIntent to find a capital
+TellMeTheCapitalIntent to find a capital
+TellMeTheCapitalIntent to tell me the capital
+TellMeTheCapitalIntent to help me find a capital
+TellMeTheCapitalIntent say the capital
+TellMeTheCapitalIntent give me the capital of
+TellMeTheCapitalIntent a capital
+TellMeTheCapitalIntent the capital
+TellMeTheCapitalIntent the capital of
+TellMeTheCapitalIntent what is the capital
+TellMeTheCapitalIntent if it can tell me the capital
+TellMeTheCapitalIntent will you tell me the capital
+TellMeTheCapitalIntent can it tell me the capital
+TellMeTheCapitalIntent to tell me the capital 
+TellMeTheCapitalIntent what's a capital
+TellMeTheCapitalIntent what is a capital
+TellMeTheCapitalIntent can it tell me the capital
+TellMeTheCapitalIntent to tell me the capital
+
+SetupCapitalIntent {SetupName}
